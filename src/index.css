@@ -1,14 +1,28 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: METAL,sans-serif;
+  font-weight: 300;
+  font-size: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+p {
+  margin: 2px;
+}
+
+:root {
+  --transparent:hsla(0,0%,100%,0.9);
+  --text-white:#fff;
+  --text-black:#000;
+  --text-red: #A08006;
+  --button-grey:#131313;
+}
+
+@font-face {
+  font-family: METAL;
+  src: url("./metalpro.woff") format("woff")
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 15px !important;
+  }
 }
