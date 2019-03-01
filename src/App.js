@@ -124,6 +124,7 @@ class App extends Component {
                             Submit
                         </div>
                     )}
+                    <a id="terms" target="_blank" rel="noopener noreferrer" href="https://www.metalpro.pt/pt/terms_and_conditions/">Termos e Condições</a>
                 </div>
             </div>
         );

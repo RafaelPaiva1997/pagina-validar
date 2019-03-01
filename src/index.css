@@ -14,6 +14,7 @@ p {
   --text-black:#000;
   --text-red: #A08006;
   --button-grey:#131313;
+  --text-grey: #444444;
 }
 
 @font-face {
